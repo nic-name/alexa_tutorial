@@ -1,7 +1,7 @@
 module.exports = {
         "invocationMessage" : {
 									type: "SSML",
-									ssml: '<speak><voice name="Matthew">This is your invocation message.</voice></speak>'
+									ssml: '<speak><voice name="Kendra">This is your invocation message.</voice></speak>'
 								},
         "unknownMessage"     : {
 									type: "PlainText",
@@ -10,17 +10,17 @@ module.exports = {
  
 	  "firstIntentMessage"  : {
 									type: "SSML",
-									ssml: '<speak><voice name="Matthew">This is your first intent</voice></speak>'
+									ssml: '<speak><voice name="Kendra">This is your first intent</voice></speak>'
 								},
 								
 	  "secondIntentMessage" : {
 									type: "SSML",
-									ssml: '<speak><voice name="Matthew">This is your second intent</voice></speak>'
+									ssml: '<speak><voice name="Kendra">This is your second intent</voice></speak>'
 								},
 
 	  "thirdIntentMessage"  : {
 									type: "SSML",
-									ssml: '<speak><voice name="Matthew">This is your third intent</voice></speak>'
+									ssml: '<speak><voice name="Kendra">This is your third intent</voice></speak>'
 								}
                            
 }
