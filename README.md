@@ -5,7 +5,7 @@ Here is the code and instructional content you need to create your first Alexa s
 * An Amazon developer account.
 * An Amazon Web Services account.
 * AWS Lambda
-* Knowledge of NODE.js and JSON.
+* Knowledge of Node.js and JSON.
 
 For more information visit: https://developer.amazon.com/docs/ask-overviews/requirements-to-build-a-skill.html
 
