@@ -34,7 +34,7 @@ To create your Alexa skill model, complete the following steps:
 8.  Select __Start from scratch__.
 9.  Click __Choose__.
 
-## Creating and invocation
+## Creating an invocation name
 
 1.  In the __CUSTOM__ menu, navigate to __Invocation__.
 2.  Enter your __Skill Invocation Name__.
