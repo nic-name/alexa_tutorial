@@ -35,6 +35,7 @@ To create your Alexa skill model, complete the following steps:
 9.  Click __Choose__.
 
 ## Creating an invocation name
+When you say a skill's invocation name you begin an interaction with a particular custom skill. For example, if the invocation name is Chatter bot, users can say: "Alexa, ask Chatter bot."
 
 1.  In the __CUSTOM__ menu, navigate to __Invocation__.
 2.  Enter your __Skill Invocation Name__.
@@ -46,20 +47,22 @@ You must create intents to represent a user's spoken request. To create your int
 1.  In the __CUSTOM__ menu, navigate to __Intents__.
 2.  Click __Add__.
 3.  Click __Add intent__.
-4.  In the __Create custom intent__ field enter the following name: _FirstIntent_.
-5.  Fill in the sample utterances for FirstIntent listed in __Table 1__.
-6.  Click __Save Model__.
-7.  Repeat steps 1 - 7 for SecondIntent and ThirdIntent.
-8.	Click __Build Model__.
+4.  Click __Create custom intent__.
+5.  In the __Create custom intent__ field enter the following name: _FirstIntent_.
+6.  Fill in the sample utterances for FirstIntent listed in __Table 1__.
+7.  Click __Save Model__.
+8.  Repeat steps 1 - 7 for SecondIntent and ThirdIntent.
+9.	Click __Build Model__.
 
 ## Setting up your Endpoint
-To set up your __Endpoint__ to receive POST requests when a user interacts with your Alexa Skill, complete the following steps:
+To set up your Endpoint to receive POST requests when a user interacts with your Alexa Skill, complete the following steps:
 
 1.  Navigate to __Service Endpoint Type__ and click __AWS Lambda ARN__.
 2.  Navigate to __Your Skill ID__ and copy it to your clipboard.
 3.  Do not close your developer console.
 
 ## Setting up Lambda
+To set up your Lamda function, complete the following steps:
 
 1.	Open a new tab and navigate to https://console.aws.amazon.com/.
 2.	Navigate to the __AWS Services__ tab and click __Lambda__.
@@ -81,6 +84,7 @@ To set up your __Endpoint__ to receive POST requests when a user interacts with 
 18. Click __Save__.
 
 ## Building your model
+To build your model, complete the following steps:
 
 1.  Navigate to the developer console.
 2.  In your skill, navigate to the __CUSTOM__ menu and click __Intents__.
@@ -88,5 +92,6 @@ To set up your __Endpoint__ to receive POST requests when a user interacts with 
 
 ## Testing your new Intent
 1.	In the Amazon developer console navigate to the __Test__ tab.
-4.	Where it says _Type or click and hold the mic_ type _Alexa ask_ + (Your skill name) and press __Enter__, then type “Ask (Your skill name) to (utterance)”. 
-5.	If the outputs are: "This is your invocation message" and "This is your (intent)" you have been successful.
+2.  If the test section is grayed out, navigate to __Test is disabled for this skill__ click __Off__ and select __Development__.
+3.	Where it says _Type or click and hold the mic_ type _Alexa ask_ + (Your skill name) and press __Enter__, then type “Ask (Your skill name) to (utterance)”. 
+4.	If the outputs are: "This is your invocation message" and "This is your (intent)" you have been successful.
