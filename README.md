@@ -1,4 +1,4 @@
-# ALEXA TUTORIAL
+# ALEXA Tutorial
 Here is the code and instructional content you need to create your first Alexa skill.
 
 # Prerequisites
