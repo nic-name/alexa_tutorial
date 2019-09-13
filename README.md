@@ -19,7 +19,7 @@ For more information visit: https://developer.amazon.com/docs/ask-overviews/requ
 |------------|-------------------|
 | FirstIntent | * First intent <br> * Tell me about first intent <br> * Activate first intent|
 | SecondIntent| * Second intent <br> * Tell me about second intent <br> * Activate second intent|
-| ThirdIntent | * Third intent <br> * Tell me about third intent <br> * Activtate third intent |
+| ThirdIntent | * Third intent <br> * Tell me about third intent <br> * Activate third intent |
 
 ## Creating a new skill
 To create your Alexa skill model, complete the following steps:
