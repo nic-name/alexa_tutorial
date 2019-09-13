@@ -94,4 +94,4 @@ To build your model, complete the following steps:
 1.	In the Amazon developer console navigate to the __Test__ tab.
 2.  If the test section is grayed out, navigate to __Test is disabled for this skill__ click __Off__ and select __Development__.
 3.	Where it says _Type or click and hold the mic_ type _Alexa ask_ + (Your skill name) and press __Enter__, then type “Ask (Your skill name) to (utterance)”. 
-4.	If the outputs are: "This is your invocation message" and "This is your (intent)" you have been successful.
+4.	If the outputs are: "This is your invocation message" and "This is your (intent)" you are successful.
